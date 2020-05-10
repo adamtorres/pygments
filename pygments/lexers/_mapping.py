@@ -334,6 +334,7 @@ LEXERS = {
     'PigLexer': ('pygments.lexers.jvm', 'Pig', ('pig',), ('*.pig',), ('text/x-pig',)),
     'PikeLexer': ('pygments.lexers.c_like', 'Pike', ('pike',), ('*.pike', '*.pmod'), ('text/x-pike',)),
     'PkgConfigLexer': ('pygments.lexers.configs', 'PkgConfig', ('pkgconfig',), ('*.pc',), ()),
+    'PlainTextLexer': ('pygments.lexers.plaintext', 'PlainText', ('plaintext', 'plainconsole', ), ('*.txt',), ('text/plain',)),
     'PlPgsqlLexer': ('pygments.lexers.sql', 'PL/pgSQL', ('plpgsql',), (), ('text/x-plpgsql',)),
     'PonyLexer': ('pygments.lexers.pony', 'Pony', ('pony',), ('*.pony',), ()),
     'PostScriptLexer': ('pygments.lexers.graphics', 'PostScript', ('postscript', 'postscr'), ('*.ps', '*.eps'), ('application/postscript',)),

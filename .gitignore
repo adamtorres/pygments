@@ -16,3 +16,4 @@
 /.coverage
 /htmlcov
 /tests/examplefiles/output
+.python-version
